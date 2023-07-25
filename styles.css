@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  #introducao {
+    margin-bottom: 40px;
+  }
+  
+  #doencas li {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #666;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  #resultContainer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #resultTitle {
+    margin-top: 0;
+  }
+  
+  #resultText {
+    margin-bottom: 0;
+  }
+  
+  .carouse1{
+  position: relative;
+  width: $card-size;
+  height: $card-size;
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+
+.card-conterner { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: 
+    rotateY(calc(var(--offset)*50deg))
+    scarleY(calc(1 + var(--obs-offset)* -0.4))
+    transleteZ(calc(var(--obs-offset)* -30rem))
+    transleteX(calc(var(--direction)* -5rem));
+    filter: blur(calc(var(--obs-offset)* 1 rem));
+    transition: all 0.3s ease-out;
+
+
+}
+
+.redes a {
+    display: block;
+}
+
+.redes li {
+    display: inline-block;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #28096b;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: .5s;
+}
+
+input:checked + .slider {
+  background-color: #522ba7;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
