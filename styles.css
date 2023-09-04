@@ -18,7 +18,7 @@ body {
   }
   
   h1, h2, h3 {
-    color: #333;
+    color: rgb(31, 30, 30);
   }
   
   #introducao {
@@ -33,7 +33,7 @@ body {
     text-align: center;
     margin-top: 40px;
     padding: 10px;
-    background-color: #f5f5f5;
+    background-color: #f2d0d0;
     color: #666;
   }
 
@@ -151,6 +151,7 @@ input:checked + .slider:before {
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    text-align: center;
     
 }
 
@@ -173,7 +174,7 @@ nav ul {
 }
 
 nav ul li {
-    margin:0 0 0 26px;
+    margin:0 0 0 566px;
 }
 
 nav ul li a {
@@ -228,8 +229,8 @@ body {
 
 /* Estilos para o cabeçalho e navbar */
 header {
-    background-color: #f5f5f5;
-    padding: 20px;
+    background-color: #2e2a2a;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -249,6 +250,7 @@ nav ul li a {
     color: #333;
     font-weight: bold;
 }
+
 nav a {
   text-transform: uppercase;
   font-size: 15px;
