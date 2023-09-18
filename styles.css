@@ -1,6 +1,6 @@
 
 body {
-  background-color: #c1ced5;
+  background-color: #c1eaef;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     color: rgb(31, 30, 30);
   }
   
-  #introducao {
+  .introducao {
     margin-bottom: 50px;
   }
   
@@ -44,13 +44,16 @@ body {
   
   h1 {
     text-align: center;
+    margin-bottom: 50px;
   }
 
 /* Reset de estilos básicos */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
     text-align: center;
+    top:20px;
+    font-weight: bold;
     
 }
 
@@ -67,58 +70,54 @@ footer {
     padding: 10px;
 }
 
-
-/* Reset de estilos básicos */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    top:20px;
-
-}
-
 body {
     font-family: Arial, sans-serif;
 }
 
 /* Estilos para o cabeçalho e navbar */
 header {
-    background-color: #c5c5c5f5;
-    padding: 20px;
+    background-color: #ee2222ee;
+    padding: 1rem 20%;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     margin:0 0 20px;
+    border-color: #fff;
+    justify-content: space-between;
 }
 
 header2 {
-    background-color: #c5c5c5f5;
-    padding: 20px;
+    background-color: #ee2222ee;
+    padding: 20px 20%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-transform: uppercase;
-    margin:0 0 20px;
+    margin: 0 0 30px;
+    border: 15px solid #ee2222ee;
+    border-radius: 20px;
 }
 
 header2 h2{
   text-transform: uppercase;
   align-items: center;
-  font-size: 25px;
-  color: #333;
+  font-size: 35px;
+  color: #ffffff;
   font-weight: bold;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
+    padding: 0;
+    margin: 0;
   
 }
 
-#nav ul li {
+.nav ul + li {
     margin-right: 20px;
 }
 
-nav ul li a {
+.nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     width: 30%;
@@ -130,18 +129,23 @@ nav ul li a {
 }
 
 
-nav a {
+.nav a {
+  display: block;
   text-transform: uppercase;
-  font-size: 15px;
-  margin:  30px;
+  text-decoration: none;
+  font-size: 35px;
+  margin:  15px 20px 10px;
+  font-weight: bold;
+  color:#0d0d01;
 }
 
 .nav a:hover {
+  display: block;
   color:#c78c19;
   text-decoration: underline;
 }
  
-nav li {
+.nav li {
   display: inline;
 }
  
@@ -189,11 +193,14 @@ nav li {
 .copyright{
   color: #ffffff;
   font-size:13px;
-  margin: 50px 0 0 ;
+  margin: 50px 0 30px;
+  padding-block: 3rem 20px;
 }
 
-.jornal{
-  width: 60px;
-  margin: 0 0 10px;
+.estilovida p {
+  margin: 0 0 30px;
 }
 
+.estilovida li{
+  margin: 0 0 30px;
+}
