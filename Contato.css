@@ -1,0 +1,99 @@
+body {
+  background-color: #c1eaef;
+}
+
+header {
+    background-color: #ee2222ee;
+    padding: 1rem 20%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin:0 0 20px;
+    border-color: #fff;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.nav ul + li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30%;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    display: inline;
+}
+
+
+.nav a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 35px;
+  margin:  15px 20px 10px;
+  font-weight: bold;
+  color:#0d0d01;
+}
+
+.nav a:hover {
+  display: block;
+  color:#c78c19;
+  text-decoration: underline;
+}
+ 
+.nav li {
+  display: inline;
+}
+
+
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+.form-contact {
+    margin: 40px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+}
+
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox, .div-entry {
+    margin: 30px auto;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size:13px;
+  margin: 50px 0 30px;
+  padding-block: 3rem 20px
+  font-weight: bold;
+}

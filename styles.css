@@ -148,6 +148,32 @@ nav ul {
 .nav li {
   display: inline;
 }
+
+.contato ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30%;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    display: inline;
+    margin-right: 20px;
+    margin: 20px;
+} 
+
+.contato a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 35px;
+  margin:  15px 20px 10px;
+  font-weight: bold;
+  color:#0d0d01;
+  
+}
+ 
+ 
  
  /* doenças codes */
  .doenças li:hover{
