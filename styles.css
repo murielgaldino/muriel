@@ -76,7 +76,6 @@ body {
 
 /* Estilos para o cabeçalho e navbar */
 header {
-    background-color: #ee2222ee;
     padding: 1rem 20%;
     display: flex;
     justify-content: space-between;
@@ -84,17 +83,15 @@ header {
     margin:0 0 20px;
     border-color: #fff;
     justify-content: space-between;
+    background-image: url(bg.jpg);
 }
 
 header2 {
-    background-color: #ee2222ee;
+    background-image:url(bg.jpg) ;
     padding: 20px 20%;
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
-    margin: 0 0 30px;
-    border: 15px solid #ee2222ee;
-    border-radius: 20px;
+    width: 500px;
 }
 
 header2 h2{
@@ -121,7 +118,7 @@ nav ul {
     text-decoration: none;
     text-transform: uppercase;
     width: 30%;
-    color: #333;
+    color: white;
     font-weight: bold;
     font-size: 30px;
     align-items: center;
@@ -136,7 +133,7 @@ nav ul {
   font-size: 35px;
   margin:  15px 20px 10px;
   font-weight: bold;
-  color:#0d0d01;
+  color:white;
 }
 
 .nav a:hover {
@@ -169,7 +166,7 @@ nav ul {
   font-size: 35px;
   margin:  15px 20px 10px;
   font-weight: bold;
-  color:#0d0d01;
+  color:white;
   
 }
  
